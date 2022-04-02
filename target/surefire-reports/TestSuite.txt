@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.236 s <<< FAILURE! - in TestSuite
+test1(fr.lernejo.navy_battle.HttpPingHandlerTest)  Time elapsed: 0.506 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "java.net.http.HttpResponse.statusCode()" because "msg" is null
+	at fr.lernejo.navy_battle.HttpPingHandlerTest.test1(HttpPingHandlerTest.java:28)
+
